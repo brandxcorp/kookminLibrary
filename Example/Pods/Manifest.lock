@@ -1,0 +1,16 @@
+PODS:
+  - kookminLibrary (0.1.0)
+
+DEPENDENCIES:
+  - kookminLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  kookminLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  kookminLibrary: 0f64342cbe509f1e4f5947b850106d327c28d6b5
+
+PODFILE CHECKSUM: b8fa52e2ee06738133b3091f89f8c984db13f3f8
+
+COCOAPODS: 1.12.1

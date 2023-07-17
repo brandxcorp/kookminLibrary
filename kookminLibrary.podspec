@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'kookminLibrary'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of kookminLibrary.'
+  s.summary          = 'BrandXfitness lib'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,17 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/taylor.son@brandxfitness.co.kr/kookminLibrary'
+  s.homepage         = 'https://github.com/brandxcorp/kookminLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'taylor.son@brandxfitness.co.kr' => 'taylor.son@brandxfitness.co.kr' }
-  s.source           = { :git => 'https://github.com/taylor.son@brandxfitness.co.kr/kookminLibrary.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/brandxcorp/kookminLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '15.0'
 
   s.source_files = 'kookminLibrary/Classes/**/*'
-  
+  s.swift_version = '5.0'
+  s.dependency 'NMapsMap'
   # s.resource_bundles = {
   #   'kookminLibrary' => ['kookminLibrary/Assets/*.png']
   # }

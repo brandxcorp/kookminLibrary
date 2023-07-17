@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40BD0DEB4F24BABD9BB63D68AAC59733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		48011DD35572C8448D644A0C73488FBB /* kookminLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC4B3FFD9EB6CD5864B9BE0944E57B8 /* kookminLibrary-dummy.m */; };
+		511B2322E83BD4893EDBBEC469CFD959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		56D38F7FD1280DF0B31E0F7E4E0D3A65 /* Pods-kookminLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C916907A8DEBD963ABB7FACE8CBB69 /* Pods-kookminLibrary_Example-dummy.m */; };
+		9844580D758E8AE7F2E080F77E3348B7 /* KookminLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5AD5F4C000AD0327E268E37B9DF84 /* KookminLibrary.swift */; };
+		A602609E8E9BE53F6BBD8CC9ED403FD0 /* Pods-kookminLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFA400E12AA521C37BAC150C621519 /* Pods-kookminLibrary_Tests-dummy.m */; };
+		AB9CB59D0AC8D5BF8FA963586B0B6B30 /* Pods-kookminLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6270E05B93F6DBF09A47AFCC95B81994 /* Pods-kookminLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8CE6804ED9CA3BD9F99550592AE93D4 /* Pods-kookminLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66035BA3CC44D2B12656516EEFAD1E18 /* Pods-kookminLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E08533AEF11BD84D15CD4C1D2293A66E /* kookminLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9BEC2C59CC75B3C1442A202262443A /* kookminLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1D36EBD24EEB11BAE33792B1215B472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		434DDAB974CE4C191A90015FB251CC21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACBB699418644360BCDF4FE17EEE86E8;
+			remoteInfo = kookminLibrary;
+		};
+		514340072734AFC3A114FC17C7E0C649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 282C1749380486CDF0D6611CD50C8F44;
+			remoteInfo = "Pods-kookminLibrary_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02472748CB8579738FBB0EB2CC2112D8 /* kookminLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = kookminLibrary.modulemap; sourceTree = "<group>"; };
+		0DC4B3FFD9EB6CD5864B9BE0944E57B8 /* kookminLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "kookminLibrary-dummy.m"; sourceTree = "<group>"; };
+		0FC5AD5F4C000AD0327E268E37B9DF84 /* KookminLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KookminLibrary.swift; path = kookminLibrary/Classes/KookminLibrary.swift; sourceTree = "<group>"; };
+		18C916907A8DEBD963ABB7FACE8CBB69 /* Pods-kookminLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-kookminLibrary_Example-dummy.m"; sourceTree = "<group>"; };
+		1B89A691879F9BB79309EEFCB53C5B8C /* kookminLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = kookminLibrary.debug.xcconfig; sourceTree = "<group>"; };
+		1CDD075C6750DB60A7837CB10FADB86E /* Pods-kookminLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kookminLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
+		23EFA400E12AA521C37BAC150C621519 /* Pods-kookminLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-kookminLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		249A949CF39AB8FAFBA0F28DF537FE7E /* Pods-kookminLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kookminLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		24F661C2B1102F356F6EB6BA3E6FF195 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		29DD5E0D5CB5D6B93CAAA7F857C9F458 /* Pods-kookminLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kookminLibrary_Example-Info.plist"; sourceTree = "<group>"; };
+		33A3207B060C4CCF26799F19C60C4A9B /* Pods-kookminLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kookminLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		34861C649CF00A08ED52DCEAD7B8CEF0 /* kookminLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = kookminLibrary.release.xcconfig; sourceTree = "<group>"; };
+		3BAFE5BDB319547CC696FD0C5EFD0DBD /* Pods-kookminLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kookminLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		45EB3966EC0BA9B8EC3CA2B43CEB2456 /* Pods-kookminLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kookminLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		498AD2CE9C5794C0AD1E67A3D2BD22D9 /* kookminLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = kookminLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4D6BADDA7EDC90AF6B4C45A6CD8E5C7A /* Pods-kookminLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-kookminLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		6270E05B93F6DBF09A47AFCC95B81994 /* Pods-kookminLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kookminLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		66035BA3CC44D2B12656516EEFAD1E18 /* Pods-kookminLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kookminLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		732DF303180C94E234A77944284EE949 /* Pods-kookminLibrary_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-kookminLibrary_Tests"; path = Pods_kookminLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		764D09FD53E0F00CA5933578EF6F1A8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9B1DC0FF9B762B8BE7A0211490952940 /* Pods-kookminLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-kookminLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9BEC2C59CC75B3C1442A202262443A /* kookminLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "kookminLibrary-umbrella.h"; sourceTree = "<group>"; };
+		A51F513CDFF6A7CC781E540900737DD1 /* Pods-kookminLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kookminLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA0A375EE260BCA740ACE36CEF833141 /* Pods-kookminLibrary_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-kookminLibrary_Example"; path = Pods_kookminLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA0BF5CE5CD710B649CB9EAF51450F5 /* Pods-kookminLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-kookminLibrary_Example.modulemap"; sourceTree = "<group>"; };
+		DCFBEA380D32B9D2061B9E84887E92E1 /* kookminLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "kookminLibrary-prefix.pch"; sourceTree = "<group>"; };
+		DDD52F8012DC69F4CC34266A6B89BE44 /* Pods-kookminLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-kookminLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E055076BD09EC563094579E9BCE64A7F /* kookminLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = kookminLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61F1B117E13F12745F9C787A542D8BF /* Pods-kookminLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kookminLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F4F65A310CA5527E42407D24669FF2BE /* kookminLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "kookminLibrary-Info.plist"; sourceTree = "<group>"; };
+		FC8B97E800024A4C49151FB9F58911E3 /* Pods-kookminLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kookminLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B4909CA996EFE9313E1B8CB11AD76BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D36EBD24EEB11BAE33792B1215B472 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34AC9CA68A24970FEC23F6B81C9F974B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511B2322E83BD4893EDBBEC469CFD959 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7856FBDDDD9112E3C20E9A00806F7103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BD0DEB4F24BABD9BB63D68AAC59733 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D694E6D25AC1140520A825F7810AFA /* Pods-kookminLibrary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D6BADDA7EDC90AF6B4C45A6CD8E5C7A /* Pods-kookminLibrary_Tests.modulemap */,
+				DDD52F8012DC69F4CC34266A6B89BE44 /* Pods-kookminLibrary_Tests-acknowledgements.markdown */,
+				249A949CF39AB8FAFBA0F28DF537FE7E /* Pods-kookminLibrary_Tests-acknowledgements.plist */,
+				23EFA400E12AA521C37BAC150C621519 /* Pods-kookminLibrary_Tests-dummy.m */,
+				1CDD075C6750DB60A7837CB10FADB86E /* Pods-kookminLibrary_Tests-Info.plist */,
+				6270E05B93F6DBF09A47AFCC95B81994 /* Pods-kookminLibrary_Tests-umbrella.h */,
+				A51F513CDFF6A7CC781E540900737DD1 /* Pods-kookminLibrary_Tests.debug.xcconfig */,
+				45EB3966EC0BA9B8EC3CA2B43CEB2456 /* Pods-kookminLibrary_Tests.release.xcconfig */,
+			);
+			name = "Pods-kookminLibrary_Tests";
+			path = "Target Support Files/Pods-kookminLibrary_Tests";
+			sourceTree = "<group>";
+		};
+		161119B61F9C785549823CDBF4748A4E /* Pods-kookminLibrary_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CFA0BF5CE5CD710B649CB9EAF51450F5 /* Pods-kookminLibrary_Example.modulemap */,
+				9B1DC0FF9B762B8BE7A0211490952940 /* Pods-kookminLibrary_Example-acknowledgements.markdown */,
+				33A3207B060C4CCF26799F19C60C4A9B /* Pods-kookminLibrary_Example-acknowledgements.plist */,
+				18C916907A8DEBD963ABB7FACE8CBB69 /* Pods-kookminLibrary_Example-dummy.m */,
+				FC8B97E800024A4C49151FB9F58911E3 /* Pods-kookminLibrary_Example-frameworks.sh */,
+				29DD5E0D5CB5D6B93CAAA7F857C9F458 /* Pods-kookminLibrary_Example-Info.plist */,
+				66035BA3CC44D2B12656516EEFAD1E18 /* Pods-kookminLibrary_Example-umbrella.h */,
+				3BAFE5BDB319547CC696FD0C5EFD0DBD /* Pods-kookminLibrary_Example.debug.xcconfig */,
+				E61F1B117E13F12745F9C787A542D8BF /* Pods-kookminLibrary_Example.release.xcconfig */,
+			);
+			name = "Pods-kookminLibrary_Example";
+			path = "Target Support Files/Pods-kookminLibrary_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6EA89643AB0BDB00D01BE4B15F4007DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02472748CB8579738FBB0EB2CC2112D8 /* kookminLibrary.modulemap */,
+				0DC4B3FFD9EB6CD5864B9BE0944E57B8 /* kookminLibrary-dummy.m */,
+				F4F65A310CA5527E42407D24669FF2BE /* kookminLibrary-Info.plist */,
+				DCFBEA380D32B9D2061B9E84887E92E1 /* kookminLibrary-prefix.pch */,
+				9E9BEC2C59CC75B3C1442A202262443A /* kookminLibrary-umbrella.h */,
+				1B89A691879F9BB79309EEFCB53C5B8C /* kookminLibrary.debug.xcconfig */,
+				34861C649CF00A08ED52DCEAD7B8CEF0 /* kookminLibrary.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/kookminLibrary";
+			sourceTree = "<group>";
+		};
+		7C51456766F3898BA189553F70EF5644 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				498AD2CE9C5794C0AD1E67A3D2BD22D9 /* kookminLibrary.podspec */,
+				24F661C2B1102F356F6EB6BA3E6FF195 /* LICENSE */,
+				764D09FD53E0F00CA5933578EF6F1A8F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		91DE07ABCA88B05202978B608A760861 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A50D29DE660D1252BC8A34C0E91166B /* kookminLibrary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9A50D29DE660D1252BC8A34C0E91166B /* kookminLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				0FC5AD5F4C000AD0327E268E37B9DF84 /* KookminLibrary.swift */,
+				7C51456766F3898BA189553F70EF5644 /* Pod */,
+				6EA89643AB0BDB00D01BE4B15F4007DE /* Support Files */,
+			);
+			name = kookminLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B263A890EC09CE80EEBB7A32D714AC33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E055076BD09EC563094579E9BCE64A7F /* kookminLibrary.framework */,
+				CA0A375EE260BCA740ACE36CEF833141 /* Pods-kookminLibrary_Example */,
+				732DF303180C94E234A77944284EE949 /* Pods-kookminLibrary_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				91DE07ABCA88B05202978B608A760861 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B263A890EC09CE80EEBB7A32D714AC33 /* Products */,
+				EBF467F5D74BC488D3D3676AD4A63C3C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBF467F5D74BC488D3D3676AD4A63C3C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				161119B61F9C785549823CDBF4748A4E /* Pods-kookminLibrary_Example */,
+				01D694E6D25AC1140520A825F7810AFA /* Pods-kookminLibrary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48DA9E6DBF24979D7F743682E6935416 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CE6804ED9CA3BD9F99550592AE93D4 /* Pods-kookminLibrary_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4189859C9B1750FE40B1D3B224AD81E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9CB59D0AC8D5BF8FA963586B0B6B30 /* Pods-kookminLibrary_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EA8A0DB744367A90DE6447D3ADF571 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08533AEF11BD84D15CD4C1D2293A66E /* kookminLibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		282C1749380486CDF0D6611CD50C8F44 /* Pods-kookminLibrary_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6102674602F2DDF6BFA5C99AF61477C6 /* Build configuration list for PBXNativeTarget "Pods-kookminLibrary_Example" */;
+			buildPhases = (
+				48DA9E6DBF24979D7F743682E6935416 /* Headers */,
+				D2A1AB87C1B2792BA77E1342555CBA60 /* Sources */,
+				7856FBDDDD9112E3C20E9A00806F7103 /* Frameworks */,
+				8710F68843AC04169331736454D5913E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD14DC3B9DDE9913D2B3F7D43FB80B2E /* PBXTargetDependency */,
+			);
+			name = "Pods-kookminLibrary_Example";
+			productName = Pods_kookminLibrary_Example;
+			productReference = CA0A375EE260BCA740ACE36CEF833141 /* Pods-kookminLibrary_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		84D2BA615F8FF063335B037D74E74EBF /* Pods-kookminLibrary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E51EE82B86A8478CD782B050C90E43 /* Build configuration list for PBXNativeTarget "Pods-kookminLibrary_Tests" */;
+			buildPhases = (
+				E4189859C9B1750FE40B1D3B224AD81E /* Headers */,
+				F0896DD4618E66AB1686864EE37CA14E /* Sources */,
+				1B4909CA996EFE9313E1B8CB11AD76BE /* Frameworks */,
+				8AF395E5FF015927FFDF5FD34F5828BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DF65FEEDB39E108C1B8C19A9759A94 /* PBXTargetDependency */,
+			);
+			name = "Pods-kookminLibrary_Tests";
+			productName = Pods_kookminLibrary_Tests;
+			productReference = 732DF303180C94E234A77944284EE949 /* Pods-kookminLibrary_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACBB699418644360BCDF4FE17EEE86E8 /* kookminLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50181AB74A16678A0E2E55CB1B6AEFE4 /* Build configuration list for PBXNativeTarget "kookminLibrary" */;
+			buildPhases = (
+				F4EA8A0DB744367A90DE6447D3ADF571 /* Headers */,
+				367612E527EC3ADD25E400D23F0B961D /* Sources */,
+				34AC9CA68A24970FEC23F6B81C9F974B /* Frameworks */,
+				A9C3C2F53823DAD57E593633AE6B4C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kookminLibrary;
+			productName = kookminLibrary;
+			productReference = E055076BD09EC563094579E9BCE64A7F /* kookminLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B263A890EC09CE80EEBB7A32D714AC33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACBB699418644360BCDF4FE17EEE86E8 /* kookminLibrary */,
+				282C1749380486CDF0D6611CD50C8F44 /* Pods-kookminLibrary_Example */,
+				84D2BA615F8FF063335B037D74E74EBF /* Pods-kookminLibrary_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8710F68843AC04169331736454D5913E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF395E5FF015927FFDF5FD34F5828BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C3C2F53823DAD57E593633AE6B4C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		367612E527EC3ADD25E400D23F0B961D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48011DD35572C8448D644A0C73488FBB /* kookminLibrary-dummy.m in Sources */,
+				9844580D758E8AE7F2E080F77E3348B7 /* KookminLibrary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A1AB87C1B2792BA77E1342555CBA60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D38F7FD1280DF0B31E0F7E4E0D3A65 /* Pods-kookminLibrary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0896DD4618E66AB1686864EE37CA14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A602609E8E9BE53F6BBD8CC9ED403FD0 /* Pods-kookminLibrary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84DF65FEEDB39E108C1B8C19A9759A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-kookminLibrary_Example";
+			target = 282C1749380486CDF0D6611CD50C8F44 /* Pods-kookminLibrary_Example */;
+			targetProxy = 514340072734AFC3A114FC17C7E0C649 /* PBXContainerItemProxy */;
+		};
+		FD14DC3B9DDE9913D2B3F7D43FB80B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = kookminLibrary;
+			target = ACBB699418644360BCDF4FE17EEE86E8 /* kookminLibrary */;
+			targetProxy = 434DDAB974CE4C191A90015FB251CC21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		175D5E56EBE697FEE2B0B033D8DF2944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E61F1B117E13F12745F9C787A542D8BF /* Pods-kookminLibrary_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-kookminLibrary_Example/Pods-kookminLibrary_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-kookminLibrary_Example/Pods-kookminLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4540D41F4EDFDCCADD07E1D934A0F155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B89A691879F9BB79309EEFCB53C5B8C /* kookminLibrary.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/kookminLibrary/kookminLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/kookminLibrary/kookminLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/kookminLibrary/kookminLibrary.modulemap";
+				PRODUCT_MODULE_NAME = kookminLibrary;
+				PRODUCT_NAME = kookminLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5807AC5E35EA9EB8676FC28AFCCD80FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BAFE5BDB319547CC696FD0C5EFD0DBD /* Pods-kookminLibrary_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-kookminLibrary_Example/Pods-kookminLibrary_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-kookminLibrary_Example/Pods-kookminLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74042C7C56BA54A5D457ACCF6F41B2A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45EB3966EC0BA9B8EC3CA2B43CEB2456 /* Pods-kookminLibrary_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-kookminLibrary_Tests/Pods-kookminLibrary_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-kookminLibrary_Tests/Pods-kookminLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AA81FF1FADD1D13DF4CAE8AED3B2DDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A51F513CDFF6A7CC781E540900737DD1 /* Pods-kookminLibrary_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-kookminLibrary_Tests/Pods-kookminLibrary_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-kookminLibrary_Tests/Pods-kookminLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E522568DABA329C1CDEC371EBF305263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34861C649CF00A08ED52DCEAD7B8CEF0 /* kookminLibrary.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/kookminLibrary/kookminLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/kookminLibrary/kookminLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/kookminLibrary/kookminLibrary.modulemap";
+				PRODUCT_MODULE_NAME = kookminLibrary;
+				PRODUCT_NAME = kookminLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50181AB74A16678A0E2E55CB1B6AEFE4 /* Build configuration list for PBXNativeTarget "kookminLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4540D41F4EDFDCCADD07E1D934A0F155 /* Debug */,
+				E522568DABA329C1CDEC371EBF305263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6102674602F2DDF6BFA5C99AF61477C6 /* Build configuration list for PBXNativeTarget "Pods-kookminLibrary_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5807AC5E35EA9EB8676FC28AFCCD80FC /* Debug */,
+				175D5E56EBE697FEE2B0B033D8DF2944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E51EE82B86A8478CD782B050C90E43 /* Build configuration list for PBXNativeTarget "Pods-kookminLibrary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA81FF1FADD1D13DF4CAE8AED3B2DDB6 /* Debug */,
+				74042C7C56BA54A5D457ACCF6F41B2A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

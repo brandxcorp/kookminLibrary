@@ -1,0 +1,6 @@
+framework module Pods_kookminLibrary_Tests {
+  umbrella header "Pods-kookminLibrary_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
