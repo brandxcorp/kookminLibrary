@@ -11,7 +11,6 @@
 		48011DD35572C8448D644A0C73488FBB /* kookminLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC4B3FFD9EB6CD5864B9BE0944E57B8 /* kookminLibrary-dummy.m */; };
 		511B2322E83BD4893EDBBEC469CFD959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		56D38F7FD1280DF0B31E0F7E4E0D3A65 /* Pods-kookminLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C916907A8DEBD963ABB7FACE8CBB69 /* Pods-kookminLibrary_Example-dummy.m */; };
-		9844580D758E8AE7F2E080F77E3348B7 /* KookminLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5AD5F4C000AD0327E268E37B9DF84 /* KookminLibrary.swift */; };
 		A602609E8E9BE53F6BBD8CC9ED403FD0 /* Pods-kookminLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EFA400E12AA521C37BAC150C621519 /* Pods-kookminLibrary_Tests-dummy.m */; };
 		AB9CB59D0AC8D5BF8FA963586B0B6B30 /* Pods-kookminLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6270E05B93F6DBF09A47AFCC95B81994 /* Pods-kookminLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8CE6804ED9CA3BD9F99550592AE93D4 /* Pods-kookminLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66035BA3CC44D2B12656516EEFAD1E18 /* Pods-kookminLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,7 +38,6 @@
 /* Begin PBXFileReference section */
 		02472748CB8579738FBB0EB2CC2112D8 /* kookminLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = kookminLibrary.modulemap; sourceTree = "<group>"; };
 		0DC4B3FFD9EB6CD5864B9BE0944E57B8 /* kookminLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "kookminLibrary-dummy.m"; sourceTree = "<group>"; };
-		0FC5AD5F4C000AD0327E268E37B9DF84 /* KookminLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KookminLibrary.swift; path = kookminLibrary/Classes/KookminLibrary.swift; sourceTree = "<group>"; };
 		18C916907A8DEBD963ABB7FACE8CBB69 /* Pods-kookminLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-kookminLibrary_Example-dummy.m"; sourceTree = "<group>"; };
 		1B89A691879F9BB79309EEFCB53C5B8C /* kookminLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = kookminLibrary.debug.xcconfig; sourceTree = "<group>"; };
 		1CDD075C6750DB60A7837CB10FADB86E /* Pods-kookminLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kookminLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -177,7 +175,6 @@
 		9A50D29DE660D1252BC8A34C0E91166B /* kookminLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				0FC5AD5F4C000AD0327E268E37B9DF84 /* KookminLibrary.swift */,
 				7C51456766F3898BA189553F70EF5644 /* Pod */,
 				6EA89643AB0BDB00D01BE4B15F4007DE /* Support Files */,
 			);
@@ -368,7 +365,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				48011DD35572C8448D644A0C73488FBB /* kookminLibrary-dummy.m in Sources */,
-				9844580D758E8AE7F2E080F77E3348B7 /* KookminLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

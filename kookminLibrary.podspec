@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   s.swift_version = '5.0'
   s.dependency 'NMapsMap'
   # s.resource_bundles = {
-  #   'kookminLibrary' => ['kookminLibrary/Assets/*.png']
+  #   'kookminLibrary' => ['Sources/kookminLibrary/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
