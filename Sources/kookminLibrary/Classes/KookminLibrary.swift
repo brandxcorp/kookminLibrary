@@ -1,5 +1,5 @@
 import SwiftUI
-//import
+//import.
 
 public struct Kookmin {
     public static func helloWorld(with name:String) {
