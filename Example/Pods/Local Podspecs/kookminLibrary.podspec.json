@@ -1,9 +1,9 @@
 {
   "name": "kookminLibrary",
-  "version": "0.1.0",
-  "summary": "A short description of kookminLibrary.",
+  "version": "0.1.2",
+  "summary": "BrandXfitness lib",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/taylor.son@brandxfitness.co.kr/kookminLibrary",
+  "homepage": "https://github.com/brandxcorp/kookminLibrary",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,18 @@
     "taylor.son@brandxfitness.co.kr": "taylor.son@brandxfitness.co.kr"
   },
   "source": {
-    "git": "https://github.com/taylor.son@brandxfitness.co.kr/kookminLibrary.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/brandxcorp/kookminLibrary.git",
+    "tag": "0.1.2"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "15.0"
   },
-  "source_files": "Sources/kookminLibrary/Classes/**/*"
+  "source_files": "Sources/kookminLibrary/**/*",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "NMapsMap": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }

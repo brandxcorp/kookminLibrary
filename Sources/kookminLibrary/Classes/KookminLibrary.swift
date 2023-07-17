@@ -1,4 +1,5 @@
-import Foundation
+import SwiftUI
+//import
 
 public struct Kookmin {
     public static func helloWorld(with name:String) {

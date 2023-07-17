@@ -22,7 +22,6 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/brandxcorp/kookminLibrary'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'taylor.son@brandxfitness.co.kr' => 'taylor.son@brandxfitness.co.kr' }
   s.source           = { :git => 'https://github.com/brandxcorp/kookminLibrary.git', :tag => s.version.to_s }
@@ -30,9 +29,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '15.0'
 
-  s.source_files = 'Sources/kookminLibrary/Classes/**/*'
+  s.source_files = 'Sources/kookminLibrary/**/*'
   s.swift_version = '5.0'
   s.dependency 'NMapsMap'
+  
   # s.resource_bundles = {
   #   'kookminLibrary' => ['Sources/kookminLibrary/Assets/*.png']
   # }
